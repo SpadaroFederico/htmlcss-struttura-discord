@@ -1,0 +1,68 @@
+/*general rules*/
+* {
+    border: 0px;
+    margin: 0px;
+}
+
+
+/*header*/
+header {
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*header functions*/
+.header-containers {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*logo*/
+.logo {
+    width: 20%;
+    height: 100%;
+    align-content: center;
+    text-align: left;
+    padding-left: 10px;
+    /*test*/
+    border: solid black 1px;
+    background-color: orange;
+}
+
+
+/*link*/
+.navigation-links {
+    width: 80%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    /*test*/
+    border: solid black 1px;
+    background-color: orange;
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+
+/*login*/
+.login {
+    width: 20%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    padding-right: 10px;
+    text-decoration: none;
+    /*test*/
+    border: solid black 1px;
+    background-color: orange;
+}
