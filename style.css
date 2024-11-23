@@ -15,7 +15,7 @@ header {
 }
 
 
-/*header functions*/
+/*header containers*/
 .header-containers {
     width: 60%;
     height: 40%;
@@ -38,13 +38,12 @@ header {
 }
 
 
-/*link*/
+/*links*/
 .navigation-links {
     width: 80%;
     height: 100%;
     align-content: center;
     text-align: center;
-    /*test*/
     border: solid black 1px;
     background-color: orange;
 }
@@ -62,7 +61,6 @@ header {
     text-align: right;
     padding-right: 10px;
     text-decoration: none;
-    /*test*/
     border: solid black 1px;
     background-color: orange;
 }
@@ -174,4 +172,54 @@ header {
     height: 100%;
     border: dashed white 2px;
 }
+
+hr{
+    color: #fff;
+    height: 1px;
+}
+
+footer{
+    background-color: #23272A;
+    height: 35px;
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.footer-nav-space{
+    background-color: #7FFFD4;   
+    width: 80%;
+    height: 89%;
+    padding: 5px;
+    margin: 0;
+    align-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo-footer{
+    background-color: #FFC0CA;
+    display: flex;
+    font-size: 8px;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    border: dashed black 1px;
+}
+
+button{
+    background-color: #FFC0CA;
+    font-size: 8px;
+    padding: 10px;
+    width: 62px;
+    border: dashed black 1px;
+    text-align: right;
+    display: block;
+}
+
+
+
 
