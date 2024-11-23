@@ -67,19 +67,20 @@ header {
     background-color: orange;
 }
 
-main{
+.jumbo {
+    width: 100%;
+    height: 400px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: darkblue;
     display: flex;
-    height: 300px;
-    background-color:#00018B ;
+    align-items: center;
+    justify-content: center;
 }
 
-.jumbo-block{
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    margin-left: 15%;
-    width: 70%;
-    height: 75%;
-    background-color: #EF82ED;
-    border:dashed black 2px;
+.jumbo-block {
+    background-color: #EF82ED;  
+    width: 50%;
+    height: 100%;
+    border: dashed black 3px;
 }
