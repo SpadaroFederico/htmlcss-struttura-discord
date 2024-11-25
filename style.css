@@ -7,8 +7,10 @@
 
 /*header*/
 header {
+    /* DEBUG */
     height: 80px;
     background-color: lightblue;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,9 +32,9 @@ header {
     width: 20%;
     height: 100%;
     align-content: center;
-    text-align: left;
     padding-left: 10px;
-    /*test*/
+    /* DEBUG */
+    text-align: left;
     border: solid black 1px;
     background-color: orange;
 }
@@ -44,6 +46,7 @@ header {
     height: 100%;
     align-content: center;
     text-align: center;
+    /* DEBUG */
     border: solid black 1px;
     background-color: orange;
 }
@@ -60,6 +63,7 @@ header {
     align-content: center;
     text-align: right;
     padding-right: 10px;
+    /* DEBUG */
     text-decoration: none;
     border: solid black 1px;
     background-color: orange;
@@ -70,22 +74,27 @@ header {
     height: 400px;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: darkblue;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* DEBUG */
+    background-color: darkblue;
 }
 
 .jumbo-block {
+    /* DEBUG */
     background-color: #EF82ED;  
+    border: dashed black 3px;
+    
     width: 50%;
     height: 100%;
-    border: dashed black 3px;
 }
 
 .section1{
+    /* DEBUG */
     background-color: #fff;
     height: 300px;
+    
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -95,22 +104,28 @@ header {
 }
 
 .blue-block{
+    /* DEBUG */
     background-color: #1E90FF;  
+    border: dashed black 3px; 
+    
     width: 50%;
     height: 100%;
-    border: dashed black 3px;
 }
 
 .pink-block{
-    background-color: #FFC0CA;  
-    width: 30%;
-    height: 100%;
+    /* DEBUG */
     border: dashed black 3px;
+    background-color: #FFC0CA;  
+    
+    width: 30%;
+    height: 100%;  
 }
 
 .section2{
+    /* DEBUG */
     background-color: #D3D3D3;
     height: 300px;
+    
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -120,8 +135,10 @@ header {
 }
 
 .section3{
+    /* DEBUG */
     background-color: #fff;
     height: 300px;
+    
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -131,8 +148,10 @@ header {
 }
 
 .section4{
+    /* DEBUG */
     background-color: #D3D3D3;
     height: 500px;
+    
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -142,14 +161,18 @@ header {
 }
 
 .green-block{
+    /* DEBUG */
     background-color: #218B21;  
+    
     width: 80%;
     height: 100%;
     border: dashed black 3px;
 }
 
 .section5{
+    /* DEBUG */
     background-color: #23272A;
+    
     height: 300px;
     width: 100%;
     padding-top: 3%;
@@ -160,17 +183,21 @@ header {
 }
 
 .pink-column{
+    /* DEBUG */
     background-color: #F08180;   
+    border: dashed black 3px; 
+    
     width: 26%;
-    height: 100%;
-    border: dashed black 3px;
+    height: 100%;   
 }
 
 .aqua-column{
+    /* DEBUG */
     background-color: #20B3AA;   
-    width: 13%;
-    height: 100%;
     border: dashed white 2px;
+    
+    width: 13%;
+    height: 100%;  
 }
 
 hr{
@@ -179,7 +206,9 @@ hr{
 }
 
 footer{
+    /* DEBUG */
     background-color: #23272A;
+    
     height: 35px;
     width: 100%;
     padding-top: 3%;
@@ -190,7 +219,11 @@ footer{
 }
 
 .footer-nav-space{
-    background-color: #7FFFD4;   
+    /* DEBUG */
+    background-color: #7FFFD4;
+    
+    justify-content: space-between;
+    display: flex;
     width: 80%;
     height: 89%;
     padding: 5px;
@@ -201,21 +234,26 @@ footer{
 }
 
 .logo-footer{
+    /* DEBUG */
+    border: dashed black 1px;
     background-color: #FFC0CA;
+    
     display: flex;
     font-size: 8px;
     padding: 10px;
     width: 40px;
     text-align: center;
-    border: dashed black 1px;
+    
 }
 
 button{
+    /* DEBUG */
+    border: dashed black 1px;
     background-color: #FFC0CA;
+    
     font-size: 8px;
     padding: 10px;
     width: 62px;
-    border: dashed black 1px;
     text-align: right;
     display: block;
 }
